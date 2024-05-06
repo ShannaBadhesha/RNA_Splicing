@@ -97,17 +97,25 @@ EventsTxt<-paste(system.file("extdata",package="EventPointer"),"/EventsFound_RNA
    PathGTF<-setwd("/Users/usc-shannabadhesha/Desktop")
    EventPointer_RNASeq_IGV(Events,SG_RNASeq,EventsTxt,PathGTF)
 ```
-## IGV (Integrative Genomic Viewer)
+### IGV (Integrative Genomic Viewer)
 From SGSeq Vignette: NA-seq reads were mapped to the human reference genome using GSNAP (Wu and Nacu 2010). The analysis is based on BAM files that were subset to reads mapping to a single gene of interest (FBXO31). 
 
 I searched for the FBX031 and got the following image:
 
 ![Visual Screenshotted from IGV result.](IGV_rna_splicing.png)
 
-This bam file aligned to a single gene (FBX031). 
+This bam file aligned to a single gene (FBX031). The reference genome was hg38. 
 
-## Citation
+
+### Citation
 Romero, Juan P., et al. “Comparison of RNA-seq and microarray platforms for splice event detection using a cross-platform algorithm.” BMC genomics 19.1 (2018): 703. doi:10.1186/s12864-018-5082-2
 
 BAM Files obtained from:
 Goldstein LD, Cao Y, Pau G, Lawrence M, Wu TD, Seshagiri S, Gentleman R (2016) Prediction and Quantification of Splice Events from RNA-Seq Data. PLoS ONE 11(5): e0156132. doi:10.1371/journal.pone.0156132
+
+##Sashimi Plot
+To further understand IGV, I found a Sashimi plot online to visualize splice juntions. 
+
+![This is a screenshot of a Sashimi plot I found with reviewing it online. Citation below.](Sashimi_plot.png)
+
+Information for this section was found on: https://www.youtube.com/watch?v=dx9-N8b9Yj4&ab_channel=IGV
