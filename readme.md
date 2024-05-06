@@ -113,9 +113,11 @@ Romero, Juan P., et al. “Comparison of RNA-seq and microarray platforms for sp
 BAM Files obtained from:
 Goldstein LD, Cao Y, Pau G, Lawrence M, Wu TD, Seshagiri S, Gentleman R (2016) Prediction and Quantification of Splice Events from RNA-Seq Data. PLoS ONE 11(5): e0156132. doi:10.1371/journal.pone.0156132
 
-##Sashimi Plot
+## Sashimi Plot
 To further understand IGV, I found a Sashimi plot online to visualize splice juntions. 
 
 ![This is a screenshot of a Sashimi plot I found with reviewing it online. Citation below.](Sashimi_plot.png)
+
+The arcs each represent splice junctions where the numbers represent the reads. The bottom lines in the blue represent gene isoforms. 
 
 Information for this section was found on: https://www.youtube.com/watch?v=dx9-N8b9Yj4&ab_channel=IGV
